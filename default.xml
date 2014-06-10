@@ -7,12 +7,12 @@
   <remote fetch="git://github.com/Freescale" name="freescale"/>
   <remote fetch="git://github.com/aalonso" name="aalonso"/>
 
-  <project remote="yocto" revision="dylan" name="poky" path="source/poky"/>
-  <project remote="yocto" revision="4.0" name="meta-ivi" path="source/meta-ivi"/>
-  <project remote="yocto" revision="dylan" name="meta-fsl-arm" path="source/meta-fsl-arm"/>
-  <project remote="freescale" revision="4.0" name="meta-fsl-ivi" path="source/meta-fsl-ivi"/>
+  <project remote="yocto" revision="dylan" name="poky" path="sources/poky"/>
+  <project remote="yocto" revision="4.0" name="meta-ivi" path="sources/meta-ivi"/>
+  <project remote="yocto" revision="dylan" name="meta-fsl-arm" path="sources/meta-fsl-arm"/>
+  <project remote="freescale" revision="4.0" name="meta-fsl-ivi" path="sources/meta-fsl-ivi"/>
 
-  <project remote="aalonso" revision="4.0" name="fsl-genivi-bsp-base" path="source/base">
+  <project remote="aalonso" revision="4.0" name="fsl-genivi-bsp-base" path="sources/base">
 	  <copyfile dest="README" src="README"/>
 	  <copyfile dest="setup-environment" src="setup-environment"/>
   </project>
