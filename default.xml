@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <default sync-j="4" revision="dylan"/>
+
+  <remote fetch="git://git.yoctoproject.org" name="yocto"/>
+  <remote fetch="git://github.com/Freescale" name="freescale"/>
+
+  <project remote="yocto" revision="dylan" name="poky" path="poky"/>
+  <project remote="yocto" revision="4.0" name="meta-ivi" path="poky/meta-ivi"/>
+  <project remote="yocto" revision="dylan" name="meta-fsl-arm" path="poky/meta-fsl-arm"/>
+  <project remote="freescale" revision="4.0" name="meta-fsl-ivi" path="poky/meta-fsl-ivi"/>
+
+</manifest>
