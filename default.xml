@@ -1,14 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-  <default sync-j="4" revision="dylan"/>
+  <default sync-j="4" revision="danny"/>
 
   <remote fetch="git://git.yoctoproject.org" name="yocto"/>
   <remote fetch="git://github.com/Freescale" name="freescale"/>
+  <remote fetch="git://git.openembedded.org" name="oe"/>
+  <remote fetch="git://github.com/aalonso" name="aalonso"/>
 
-  <project remote="yocto" revision="dylan" name="poky" path="poky"/>
-  <project remote="yocto" revision="4.0" name="meta-ivi" path="poky/meta-ivi"/>
-  <project remote="yocto" revision="dylan" name="meta-fsl-arm" path="poky/meta-fsl-arm"/>
-  <project remote="freescale" revision="4.0" name="meta-fsl-ivi" path="poky/meta-fsl-ivi"/>
+  <project remote="yocto" revision="danny" name="poky" path="sources/poky"/>
+  <project remote="yocto" revision="3.0" name="meta-ivi" path="sources/meta-ivi"/>
+  <project remote="yocto" revision="danny" name="meta-fsl-arm" path="sources/meta-fsl-arm"/>
+  <project remote="freescale" revision="3.0" name="meta-fsl-ivi" path="sources/meta-fsl-ivi"/>
+  <project remote="oe" revision="danny" name="meta-openembedded" path="sources/meta-openembedded"/>
+
+  <project remote="aalonso" revision="3.0" name="fsl-genivi-bsp-base" path="sources/base">
+	<copyfile dest="README" src="README"/>
+	<copyfile dest="setup-environment" src="setup-environment"/>
+  </project>
 
 </manifest>
