@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-  <default sync-j="4" revision="master"/>
+  <default sync-j="4" revision="daisy"/>
 
   <remote fetch="git://git.yoctoproject.org" name="yocto"/>
   <remote fetch="git://github.com/Freescale" name="freescale"/>
   <remote fetch="git://github.com/aalonso" name="aalonso"/>
 
-  <project remote="yocto" revision="master" name="poky" path="poky"/>
-  <project remote="yocto" revision="master" name="meta-ivi" path="poky/meta-ivi"/>
-  <project remote="yocto" revision="master" name="meta-fsl-arm" path="poky/meta-fsl-arm"/>
-  <project remote="freescale" revision="master" name="meta-fsl-ivi" path="poky/meta-fsl-ivi"/>
+  <project remote="yocto" revision="daisy" name="poky" path="poky"/>
+  <project remote="yocto" revision="6.0" name="meta-ivi" path="poky/meta-ivi"/>
+  <project remote="yocto" revision="daisy" name="meta-fsl-arm" path="poky/meta-fsl-arm"/>
+  <project remote="freescale" revision="6.0" name="meta-fsl-ivi" path="poky/meta-fsl-ivi"/>
 
-  <project remote="aalonso" revision="master" name="fsl-genivi-bsp-base" path="sources/base">
+  <project remote="aalonso" revision="6.0" name="fsl-genivi-bsp-base" path="sources/base">
 	  <copyfile dest="README" src="README"/>
 	  <copyfile dest="setup-environment" src="setup-environment"/>
   </project>
