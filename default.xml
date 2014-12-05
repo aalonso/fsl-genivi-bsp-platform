@@ -7,10 +7,10 @@
   <remote fetch="git://github.com/Freescale" name="freescale"/>
   <remote fetch="git://github.com/aalonso" name="aalonso"/>
 
-  <project remote="yocto" revision="master" name="poky" path="poky"/>
-  <project remote="yocto" revision="master" name="meta-ivi" path="poky/meta-ivi"/>
-  <project remote="yocto" revision="master" name="meta-fsl-arm" path="poky/meta-fsl-arm"/>
-  <project remote="freescale" revision="master" name="meta-fsl-ivi" path="poky/meta-fsl-ivi"/>
+  <project remote="yocto" revision="master" name="poky" path="sources/poky"/>
+  <project remote="yocto" revision="master" name="meta-ivi" path="sources/meta-ivi"/>
+  <project remote="yocto" revision="master" name="meta-fsl-arm" path="sources/meta-fsl-arm"/>
+  <project remote="freescale" revision="master" name="meta-fsl-ivi" path="sources/meta-fsl-ivi"/>
 
   <project remote="aalonso" revision="master" name="fsl-genivi-bsp-base" path="sources/base">
 	  <copyfile dest="README" src="README"/>
