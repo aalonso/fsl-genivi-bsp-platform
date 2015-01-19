@@ -6,11 +6,13 @@
   <remote fetch="git://git.yoctoproject.org" name="yocto"/>
   <remote fetch="git://github.com/Freescale" name="freescale"/>
   <remote fetch="git://github.com/aalonso" name="aalonso"/>
+  <remore fetch="git://git.openembedded.org" name="oe"/>
 
   <project remote="yocto" revision="dizzy" name="poky" path="sources/poky"/>
   <project remote="yocto" revision="7.0" name="meta-ivi" path="sources/meta-ivi"/>
   <project remote="yocto" revision="dizzy" name="meta-fsl-arm" path="sources/meta-fsl-arm"/>
   <project remote="freescale" revision="7.0" name="meta-fsl-ivi" path="sources/meta-fsl-ivi"/>
+  <project remote="oe" revision="dizzy" name="meta-openembedded" path="sources/meta-openembedded"/>
 
   <project remote="aalonso" revision="7.0" name="fsl-genivi-bsp-base" path="sources/base">
 	  <copyfile dest="README" src="README"/>
