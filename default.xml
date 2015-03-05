@@ -13,6 +13,7 @@
   <project remote="yocto" revision="7.0" name="meta-ivi" path="sources/meta-ivi"/>
   <project remote="yocto" revision="dizzy" name="meta-fsl-arm" path="sources/meta-fsl-arm"/>
   <project remote="freescale" revision="7.0" name="meta-fsl-ivi" path="sources/meta-fsl-ivi"/>
+  <project remote="freescale" revision="dizzy" name="meta-fsl-demos" path="sources/meta-fsl-demos"/>
   <project remote="oe" revision="dizzy" name="meta-openembedded" path="sources/meta-openembedded"/>
   <project remote="qt5" revision="dizzy" name="meta-qt5" path="sources/meta-qt5"/>
 
